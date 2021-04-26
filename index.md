@@ -1,3 +1,3 @@
-## Welcome to james.lloyd.ws
+## Welcome to My Website
 
-This is my new page, yo yo yo
+This is where I might publish my website things.
