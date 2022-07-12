@@ -26,7 +26,7 @@ github_username:  jameslloyd
 
 # Build settings
 markdown: kramdown
-theme: thedevslot.github.io/whatatheme
+remote_theme: thedevslot.github.io/whatatheme
 plugins:
   - jekyll-feed
 
