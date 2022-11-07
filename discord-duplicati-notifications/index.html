@@ -14,20 +14,16 @@
     <meta property="og:site_name" content="James Lloyd" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Discord Duplicati Notifications" />
-    <meta property="og:description" content="Been trying to get my duplicati backup notifications into discord for a while, there are some bash scripts that i managed to get working, however, I wanted something a little more informative.
-
-So I wrote a little script to utilise the send-http-url report advanced option. To give notifications that look" />
+    <meta property="og:description" content="Out the box, duplicati has limited notification options and appears to lean towards pushing you down the email route. I really wanted to have my backup notifications in discord and I wanted a way to graph the number of files in the backup specifically.  As for a quick and dirty" />
     <meta property="og:url" content="https://james.lloyd.ws/discord-duplicati-notifications/" />
     <meta property="og:image" content="https://james.lloyd.ws/content/images/2022/11/backupsize.png" />
     <meta property="article:published_time" content="2022-11-07T18:16:31.000Z" />
-    <meta property="article:modified_time" content="2022-11-07T19:26:48.000Z" />
+    <meta property="article:modified_time" content="2022-11-07T21:05:39.000Z" />
     <meta property="article:tag" content="News" />
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Discord Duplicati Notifications" />
-    <meta name="twitter:description" content="Been trying to get my duplicati backup notifications into discord for a while, there are some bash scripts that i managed to get working, however, I wanted something a little more informative.
-
-So I wrote a little script to utilise the send-http-url report advanced option. To give notifications that look" />
+    <meta name="twitter:description" content="Out the box, duplicati has limited notification options and appears to lean towards pushing you down the email route. I really wanted to have my backup notifications in discord and I wanted a way to graph the number of files in the backup specifically.  As for a quick and dirty" />
     <meta name="twitter:url" content="https://james.lloyd.ws/discord-duplicati-notifications/" />
     <meta name="twitter:image" content="https://james.lloyd.ws/content/images/2022/11/backupsize.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -68,7 +64,7 @@ So I wrote a little script to utilise the send-http-url report advanced option. 
     "headline": "Discord Duplicati Notifications",
     "url": "https://james.lloyd.ws/discord-duplicati-notifications/",
     "datePublished": "2022-11-07T18:16:31.000Z",
-    "dateModified": "2022-11-07T19:26:48.000Z",
+    "dateModified": "2022-11-07T21:05:39.000Z",
     "image": {
         "@type": "ImageObject",
         "url": "https://james.lloyd.ws/content/images/2022/11/backupsize.png",
@@ -76,7 +72,7 @@ So I wrote a little script to utilise the send-http-url report advanced option. 
         "height": 302
     },
     "keywords": "News",
-    "description": "Been trying to get my duplicati backup notifications into discord for a while, there are some bash scripts that i managed to get working, however, I wanted something a little more informative.\n\nSo I wrote a little script to utilise the send-http-url report advanced option. To give notifications that look like the below\n\nhttps://duplicati-notifications.lloyd.ws will generate a URL to forward your backup report to a discord webhook.  Using the backup name and webhook URL to generate the reporting ",
+    "description": "Out the box, duplicati has limited notification options and appears to lean towards pushing you down the email route. I really wanted to have my backup notifications in discord and I wanted a way to graph the number of files in the backup specifically.  As for a quick and dirty check if the number goes up, its likely backing up my photos etc.\n\nSo I wrote a little script to utilise the send-http-url report advanced option. To give notifications that look like the below\n\n\nHow to\n\n 1.  Setup up you",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://james.lloyd.ws/"
@@ -175,7 +171,7 @@ So I wrote a little script to utilise the send-http-url report advanced option. 
             </header>
 
             <section class="gh-content gh-canvas">
-                <p>Been trying to get my duplicati backup notifications into discord for a while, there are some bash scripts that i managed to get working, however, I wanted something a little more informative.</p><p>So I wrote a little script to utilise the send-http-url report advanced option. To give notifications that look like the below</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="../content/images/2022/11/image.png" class="kg-image" alt loading="lazy" width="483" height="261"><figcaption>example discord backup notification</figcaption></figure><p><a href="https://duplicati-notifications.lloyd.ws/">https://duplicati-notifications.lloyd.ws</a> will generate a URL to forward your backup report to a discord webhook.  Using the backup name and webhook URL to generate the reporting send-http-url, you can then add that generated URL to your backup job in the advanced options (see below). Pick send-http-url from the <em>Add advanced option </em>dropdown, add the provided URL and save your backup job</p><figure class="kg-card kg-image-card"><img src="../content/images/2022/11/image-1.png" class="kg-image" alt loading="lazy" width="654" height="858" srcset="../content/images/size/w600/2022/11/image-1.png 600w, ../content/images/2022/11/image-1.png 654w"></figure>
+                <p>Out the box, duplicati has limited notification options and appears to lean towards pushing you down the email route. I really wanted to have my backup notifications in discord and I wanted a way to graph the number of files in the backup specifically.  As for a quick and dirty check if the number goes up, its likely backing up my photos etc.</p><p>So I wrote a little script to utilise the send-http-url report advanced option. To give notifications that look like the below</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="../content/images/2022/11/image.png" class="kg-image" alt loading="lazy" width="483" height="261"><figcaption>example discord backup notification</figcaption></figure><h2 id="how-to">How to</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="../content/images/2022/11/image-2.png" class="kg-image" alt loading="lazy" width="727" height="163" srcset="../content/images/size/w600/2022/11/image-2.png 600w, ../content/images/2022/11/image-2.png 727w" sizes="(min-width: 720px) 720px"><figcaption>duplicati-notifications form</figcaption></figure><ol><li>Setup up your desired Discord webhook (<a href="https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks">https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks</a>)</li><li>Copy your webhook url</li><li>Goto <a href="https://duplicati-notifications.lloyd.ws/">https://duplicati-notifications.lloyd.ws</a> </li><li>Enter the name of your backup (this is completely arbitrary, but will be used to identify stats later on)</li><li>Paste your Webhook url into the webhook field </li><li>Click "Create send-http-url URL"</li><li>Copy the generated url</li><li>Goto Duplicati and edit your already working backup job.</li><li>In section 5 at the bottom from the dropbox box select send-http-url </li><li>in the send-http-url form box that will now appear paste in the url from  https://duplicati-notifications.lloyd.ws</li><li>Save your backup job.</li><li>Done!</li></ol><figure class="kg-card kg-image-card"><img src="../content/images/2022/11/image-1.png" class="kg-image" alt loading="lazy" width="654" height="858" srcset="../content/images/size/w600/2022/11/image-1.png 600w, ../content/images/2022/11/image-1.png 654w"></figure>
             </section>
 
         </article>
