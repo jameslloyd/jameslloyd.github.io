@@ -1,5 +1,5 @@
 User-agent: *
-Sitemap: https://james.lloyd.ws/sitemap.xml
+Sitemap: http://192.168.6.3:2368/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
 Disallow: /email/
