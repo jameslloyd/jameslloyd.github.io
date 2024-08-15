@@ -1,8 +1,9 @@
 ---
 title: Space Giraffes Ate My Crewmate
 description: Space Giraffes Ate My Crewmate - In space, no one can hear you scream... for lettuce.
-pubDate: Aug 15 2024
+pubDate: 2024-08-15T16:42:20.708Z
 heroImage: /spacegiraffes.png
+slug: space-giraffes-ate-crewmate
 ---
 **Tag Line:** In space, no one can hear you scream... for lettuce.
 
