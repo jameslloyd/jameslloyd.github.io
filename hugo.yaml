@@ -1,0 +1,11 @@
+baseURL: ""
+languageCode: en-gb
+title: James Lloyd
+theme: PaperMod
+
+menu:
+  main:
+    - name: Home
+      url: /
+    - name: Blog
+      url: /posts/
