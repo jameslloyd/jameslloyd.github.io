@@ -4,6 +4,11 @@
     <title>Posts on James Lloyd</title>
     <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on James Lloyd</description>
+    <image>
+      <title>James Lloyd</title>
+      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.132.2</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 16 Aug 2024 06:19:04 +0000</lastBuildDate>
@@ -16,11 +21,13 @@
       <description>Short Pitch: When a routine mission to the International Space Station turns deadly, astronaut Commander Alex Mason returns to Earth with a bizarre tale of extraterrestrial murder. Haunted by the gruesome death of his partner and the horrifying sight of the Space Giraffes responsible, Mason embarks on a desperate quest to warn the world of the leafy green-loving menace lurking beyond the stars. But as his sanity unravels and the evidence mounts against him, Mason must confront a chilling truth: the real danger might not be in outer space, but within himself.</description>
     </item>
     <item>
-      <title>testing</title>
-      <link>//localhost:1313/posts/2024-08-16-testing/</link>
-      <pubDate>Fri, 16 Aug 2024 06:06:31 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-08-16-testing/</guid>
-      <description>this is a test</description>
+      <title>An Enterprise Desktop in a Digital Age</title>
+      <link>//localhost:1313/posts/2024-08-16-an-enterprise-desktop-in-a-digital-age/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024-08-16-an-enterprise-desktop-in-a-digital-age/</guid>
+      <description>A path to creating a people centric desktop.
+Currently in an Enterprise The enterprise desktop is a complex beast. Provisioning and maintaining 1000+ clients is not a simple task. Ensuring your estate is configured to work with your network and complies with your company’s security policies requires layer upon layer of management.
+Full OS refreshes requires multi-million $ programme that span multiple years and geographies, creating large capital spikes. As these large cumbersome programmes finish their impressive task, you’ll find due to the ever increasing pace of change that the once new and shiny OS you just deployed to your enterprise is now out of date, about to go end of life and you need to get back on the merry-go-round and start again.</description>
     </item>
   </channel>
 </rss>

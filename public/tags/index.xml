@@ -4,6 +4,11 @@
     <title>Tags on James Lloyd</title>
     <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on James Lloyd</description>
+    <image>
+      <title>James Lloyd</title>
+      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.132.2</generator>
     <language>en-gb</language>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
