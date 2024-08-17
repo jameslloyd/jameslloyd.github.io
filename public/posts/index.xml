@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on James Lloyd</title>
     <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on James Lloyd</description>
-    <image>
-      <title>James Lloyd</title>
-      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.132.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 16 Aug 2024 06:19:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 16:02:24 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Name Long Neck</title>
+      <link>//localhost:1313/posts/2024-08-17-code-name-long-neck/</link>
+      <pubDate>Sat, 17 Aug 2024 16:02:24 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024-08-17-code-name-long-neck/</guid>
+      <description>In a world of shadows and secrets, a seasoned spy uncovers a sinister plot to assassinate the President. But as he races to expose the truth, he finds himself hunted not only by enemy agents but also by an enigmatic force: ninja giraffes.&#xA;Synopsis: Alex Mason, a veteran intelligence operative, stumbles upon fragmented whispers of a high-level conspiracy. His instincts tell him it&amp;rsquo;s tied to the upcoming G20 Summit, where the President is a prime target.</description>
+    </item>
     <item>
       <title>Space Giraffes Ate My Crewmate</title>
       <link>//localhost:1313/posts/2024-08-16-space-giraffes-ate-my-crewmate/</link>
@@ -25,9 +27,7 @@
       <link>//localhost:1313/posts/2024-08-16-an-enterprise-desktop-in-a-digital-age/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/2024-08-16-an-enterprise-desktop-in-a-digital-age/</guid>
-      <description>A path to creating a people centric desktop.
-Currently in an Enterprise The enterprise desktop is a complex beast. Provisioning and maintaining 1000+ clients is not a simple task. Ensuring your estate is configured to work with your network and complies with your company’s security policies requires layer upon layer of management.
-Full OS refreshes requires multi-million $ programme that span multiple years and geographies, creating large capital spikes. As these large cumbersome programmes finish their impressive task, you’ll find due to the ever increasing pace of change that the once new and shiny OS you just deployed to your enterprise is now out of date, about to go end of life and you need to get back on the merry-go-round and start again.</description>
+      <description>A path to creating a people centric desktop.&#xA;Currently in an Enterprise The enterprise desktop is a complex beast. Provisioning and maintaining 1000+ clients is not a simple task. Ensuring your estate is configured to work with your network and complies with your company’s security policies requires layer upon layer of management.&#xA;Full OS refreshes requires multi-million $ programme that span multiple years and geographies, creating large capital spikes. As these large cumbersome programmes finish their impressive task, you’ll find due to the ever increasing pace of change that the once new and shiny OS you just deployed to your enterprise is now out of date, about to go end of life and you need to get back on the merry-go-round and start again.</description>
     </item>
   </channel>
 </rss>
