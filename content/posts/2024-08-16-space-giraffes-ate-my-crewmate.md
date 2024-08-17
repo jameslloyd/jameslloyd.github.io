@@ -4,7 +4,8 @@ description: ""
 date: 2024-08-16T06:19:04.062Z
 preview: /img/spacegiraffes.png
 draft: false
-tags: []
+tags:
+    - Movie Pitch
 categories:
     - movie pitch
 cover:

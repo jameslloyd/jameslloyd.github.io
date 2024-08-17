@@ -11,10 +11,16 @@
     <loc>//localhost:1313/</loc>
     <lastmod>2024-08-17T16:02:24+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/movie-pitch/</loc>
+    <lastmod>2024-08-17T16:02:24+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/categories/movie-pitch/</loc>
     <lastmod>2024-08-17T16:02:24+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
+    <lastmod>2024-08-17T16:02:24+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-08-17T16:02:24+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/2024-08-16-space-giraffes-ate-my-crewmate/</loc>
@@ -29,7 +35,5 @@
     <loc>//localhost:1313/projects/php-active-directory-search/</loc>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
