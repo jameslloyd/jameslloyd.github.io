@@ -27,8 +27,6 @@
           document.getElementById('temperature').textContent = data.weather_Outdoor_Temperature.value + " " + data.weather_Outdoor_Temperature.unit;
           document.getElementById('Wind_Direction').textContent = data.weather_Wind_Direction.value + " " + data.weather_Wind_Direction.unit;
           document.getElementById('humidity').textContent = data.weather_Outdoor_Humidity.value + " " + data.weather_Outdoor_Humidity.unit;
-          // ... update other elements 
-          console.log(data);
         } catch (error) {
           console.error('Error fetching weather data:', error);
           // Display an error message to the user 
