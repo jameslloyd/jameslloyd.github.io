@@ -5,9 +5,9 @@ date: 2024-08-16T06:19:04.062Z
 preview: /img/spacegiraffes.png
 draft: false
 tags:
-    - Movie Pitch
+    - "Movie Pitch"
 categories:
-    - movie pitch
+    - "movie pitch"
 cover:
     image: img/spacegiraffes.png
     alt: Space Giraffes Ate My Crewmate Poster

@@ -4,8 +4,10 @@ description: ""
 date: 2016-04-5T06:45:27.051Z
 preview: ""
 draft: false
-tags: []
-categories: []
+tags: 
+    - "Modern Desktop"
+categories:
+
 ---
 
 A path to creating a people centric desktop.

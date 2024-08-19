@@ -6,9 +6,9 @@ date: 2024-08-17T16:02:24.507Z
 preview: img/code-name-long-neck.jpeg
 draft: false
 tags:
-    - Movie Pitch
+    - "Movie Pitch"
 categories:
-    - movie pitch
+    - "movie pitch"
 cover:
     image: img/code-name-long-neck.jpeg
     alt: Code Name Long Neck Poster

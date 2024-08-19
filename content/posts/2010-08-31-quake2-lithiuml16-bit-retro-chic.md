@@ -5,9 +5,10 @@ date: 2010-08-31T16:02:24.507Z
 preview: img/code-name-long-neck.jpeg
 draft: false
 tags:
-    - Movie Pitch
+    - "Quake 2"
+    - Gaming
 categories:
-    - movie pitch
+    - "Gaming"
 cover:
     image: https://github.com/jameslloyd/q2stats/blob/master/images/header.png?raw=true
     alt: Code Name Long Neck Poster
