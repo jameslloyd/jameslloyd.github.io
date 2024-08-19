@@ -1,0 +1,7 @@
+#temperature, #Wind_Direction, #humidity {
+    transition: opacity 0.5s ease; /* Adjust duration as needed */
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
