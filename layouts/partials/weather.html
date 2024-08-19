@@ -17,7 +17,7 @@
 <script>
     async function fetchWeatherData() {
         try {
-          const response = await fetch('https://weather.lloyd.ws/metrics');
+          const response = await fetch('https://weather.lloyd.ws/json');
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
