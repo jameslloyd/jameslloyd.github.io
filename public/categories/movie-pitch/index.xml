@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Movie Pitch on James Lloyd</title>
-    <link>//localhost:1313/categories/movie-pitch/</link>
+    <link>http://192.168.6.3:1313/categories/movie-pitch/</link>
     <description>Recent content in Movie Pitch on James Lloyd</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>James Lloyd</title>
+      <url>http://192.168.6.3:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://192.168.6.3:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.132.2</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 17 Aug 2024 16:02:24 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/movie-pitch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.6.3:1313/categories/movie-pitch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Name Long Neck</title>
-      <link>//localhost:1313/posts/2024-08-17-code-name-long-neck/</link>
+      <link>http://192.168.6.3:1313/posts/2024-08-17-code-name-long-neck/</link>
       <pubDate>Sat, 17 Aug 2024 16:02:24 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-08-17-code-name-long-neck/</guid>
-      <description>In a world of shadows and secrets, a seasoned spy uncovers a sinister plot to assassinate the President. But as he races to expose the truth, he finds himself hunted not only by enemy agents but also by an enigmatic force: ninja giraffes.&#xA;Synopsis: Alex Mason, a veteran intelligence operative, stumbles upon fragmented whispers of a high-level conspiracy. His instincts tell him it&amp;rsquo;s tied to the upcoming G20 Summit, where the President is a prime target.</description>
+      <guid>http://192.168.6.3:1313/posts/2024-08-17-code-name-long-neck/</guid>
+      <description>In a world of shadows and secrets, a seasoned spy uncovers a sinister plot to assassinate the President. But as he races to expose the truth
+</description>
     </item>
     <item>
       <title>Space Giraffes Ate My Crewmate</title>
-      <link>//localhost:1313/posts/2024-08-16-space-giraffes-ate-my-crewmate/</link>
+      <link>http://192.168.6.3:1313/posts/2024-08-16-space-giraffes-ate-my-crewmate/</link>
       <pubDate>Fri, 16 Aug 2024 06:19:04 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-08-16-space-giraffes-ate-my-crewmate/</guid>
+      <guid>http://192.168.6.3:1313/posts/2024-08-16-space-giraffes-ate-my-crewmate/</guid>
       <description>Short Pitch: When a routine mission to the International Space Station turns deadly, astronaut Commander Alex Mason returns to Earth with a bizarre tale of extraterrestrial murder. Haunted by the gruesome death of his partner and the horrifying sight of the Space Giraffes responsible, Mason embarks on a desperate quest to warn the world of the leafy green-loving menace lurking beyond the stars. But as his sanity unravels and the evidence mounts against him, Mason must confront a chilling truth: the real danger might not be in outer space, but within himself.</description>
     </item>
   </channel>
