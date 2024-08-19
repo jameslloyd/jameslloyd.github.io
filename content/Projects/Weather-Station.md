@@ -14,3 +14,5 @@ Data from the weather station in my garden. I have an old CCTV camera taking pic
 ![Temperature](https://f001.backblazeb2.com/file/JLwebsite/temperature.png)
 ![Humidity](https://f001.backblazeb2.com/file/JLwebsite/Humidity.png)
 ![Pressure](https://f001.backblazeb2.com/file/JLwebsite/Pressure.png)
+![Solar Radiance](https://f001.backblazeb2.com/file/JLwebsite/Solar-Radiance.png)
+
