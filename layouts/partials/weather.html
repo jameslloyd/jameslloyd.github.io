@@ -8,9 +8,10 @@
 </div>
 <table>
     <tr><th colspan="2">Live Weather Data</th></tr>
-    <tr><th>Temperature</th><td><div id="temperature"></div></td></tr>
-    <tr><th>Humidity</th><td><div id="humidity"> </div></td></tr>
-    <tr><th>Wind Direction</th><td><div id="Wind_Direction">360</div></td></tr>
+    <tr><th>Temperature</th><td><div id="temperature"></div>°C</td></tr>
+    <tr><th>Humidity</th><td><div id="humidity"> </div>%</td></tr>
+    <tr><th>Wind Direction</th><td><div id="Wind_Direction">360</div>°</td></tr>
+    <tr><th>Wind Speed</th><td><div id="Wind_Speed">0</div>m/s</td></tr>
 </table>
 
 
@@ -27,6 +28,7 @@
         // Update Odometer instances (assuming you've initialized them)
         temperatureOdometer.update(data.weather_Outdoor_Temperature.value);
         windDirectionOdometer.update(data.weather_Wind_Direction.value);
+        windSpeedOdometer.update(data.weather_Wind_Speed.value);
         humidityOdometer.update(data.weather_Outdoor_Humidity.value);
 
     } catch (error) {
@@ -43,7 +45,12 @@ const temperatureOdometer = new Odometer({
 });
 const windDirectionOdometer = new Odometer({
     el: document.getElementById('Wind_Direction'),
-    format: '', // Adjust format as needed
+    format: '(,ddd).ddd', // Adjust format as needed
+    
+});
+const windSpeedOdometer = new Odometer({
+    el: document.getElementById('Wind_Speed'),
+    format: '(ddd).ddd', // Adjust format as needed
     
 });
 const humidityOdometer = new Odometer({
