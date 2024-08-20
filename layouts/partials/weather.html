@@ -11,14 +11,17 @@
     <tr>
         <th>Temperature</th><td><div id="temperature"> </div>&nbsp;°C</td>
         <th>Wind Direction</th><td><div id="Wind_Direction">360</div>&nbsp;°</td>
+        <th>Pressure</th><td><div id="pressure">360</div>&nbsp;hPa</td>
     </tr>
     <tr>
         <th>Humidity</th><td><div id="humidity"> </div>&nbsp;%</td>
         <th>Wind Speed</th><td><div id="Wind_Speed">0</div>&nbsp;m/s</td>
+        <th>Solar Irradiance</th><td><div id="solar">360</div>&nbsp;W/m<sup>2</sup></td>
     </tr>
     <tr>
-        <th>Pressure</th><td><div id="pressure"> </div>&nbsp;hPa</td>
+        <th>Dew Point</th><td><div id="dewpoint"> </div>&nbsp;°C</td>
         <th>Rain Rate</th><td><div id="rain">0</div>&nbsp;mm/hr</td>        
+        <th>UV Index</th><td><div id="uv">0</div></td>   
     </tr>
 </table>
 
@@ -40,6 +43,9 @@
         humidityOdometer.update(data.weather_Outdoor_Humidity.value);
         rainrateOdometer.update(data.weather_Rain_Rate.value);
         pressureOdometer.update(data.weather_Relative_Pressure.value);
+        solarirradianceOdometer.update(data.weather_Solar_Irradiance.value);
+        dewpointOdometer.update(data.weather_Dew_point.value);
+        uvindexOdometer.update(data.weather_UV_Index.value);
 
     } catch (error) {
         console.error('Error fetching weather data:', error);
@@ -75,6 +81,21 @@ const rainrateOdometer = new Odometer({
 });
 const pressureOdometer = new Odometer({
     el: document.getElementById('pressure'),
+    format: '(,ddd).dd', // Adjust format as needed
+  
+});
+const solarirradianceOdometer = new Odometer({
+    el: document.getElementById('solar'),
+    format: '(ddd).ddd', // Adjust format as needed
+    
+});
+const dewpointOdometer = new Odometer({
+    el: document.getElementById('dewpoint'),
+    format: '(,ddd).dd', // Adjust format as needed
+  
+});
+const uvindexOdometer = new Odometer({
+    el: document.getElementById('uv'),
     format: '(,ddd).dd', // Adjust format as needed
   
 });
