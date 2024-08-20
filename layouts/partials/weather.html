@@ -7,11 +7,19 @@
     </figure>
 </div>
 <table>
-    <tr><th colspan="2">Live Weather Data</th></tr>
-    <tr><th>Temperature</th><td><div id="temperature"></div>°C</td></tr>
-    <tr><th>Humidity</th><td><div id="humidity"> </div>%</td></tr>
-    <tr><th>Wind Direction</th><td><div id="Wind_Direction">360</div>°</td></tr>
-    <tr><th>Wind Speed</th><td><div id="Wind_Speed">0</div>m/s</td></tr>
+    <tr><th colspan="4">Live Weather Data</th></tr>
+    <tr>
+        <th>Temperature</th><td><div id="temperature"> </div>&nbsp;°C</td>
+        <th>Wind Direction</th><td><div id="Wind_Direction">360</div>&nbsp;°</td>
+    </tr>
+    <tr>
+        <th>Humidity</th><td><div id="humidity"> </div>&nbsp;%</td>
+        <th>Wind Speed</th><td><div id="Wind_Speed">0</div>&nbsp;m/s</td>
+    </tr>
+    <tr>
+        <th>Pressure</th><td><div id="pressure"> </div>&nbsp;hPa</td>
+        <th>Rain Rate</th><td><div id="rain">0</div>&nbsp;mm/hr</td>        
+    </tr>
 </table>
 
 
@@ -30,6 +38,8 @@
         windDirectionOdometer.update(data.weather_Wind_Direction.value);
         windSpeedOdometer.update(data.weather_Wind_Speed.value);
         humidityOdometer.update(data.weather_Outdoor_Humidity.value);
+        rainrateOdometer.update(data.weather_Rain_Rate.value);
+        pressureOdometer.update(data.weather_Relative_Pressure.value);
 
     } catch (error) {
         console.error('Error fetching weather data:', error);
@@ -58,7 +68,16 @@ const humidityOdometer = new Odometer({
     format: '(,ddd).dd', // Adjust format as needed
   
 });
-
+const rainrateOdometer = new Odometer({
+    el: document.getElementById('rain'),
+    format: '(ddd).ddd', // Adjust format as needed
+    
+});
+const pressureOdometer = new Odometer({
+    el: document.getElementById('pressure'),
+    format: '(,ddd).dd', // Adjust format as needed
+  
+});
 // Initial fetch and periodic updates
 fetchWeatherData();
 setInterval(fetchWeatherData, 3 * 1000);
