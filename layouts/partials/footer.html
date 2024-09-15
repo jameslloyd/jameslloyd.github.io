@@ -24,7 +24,15 @@
 {{- end }}
 
 {{- partial "extend_footer.html" . }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-28ER6M0VM0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-28ER6M0VM0');
+</script>
 <script>
     let menu = document.getElementById('menu')
     if (menu) {
