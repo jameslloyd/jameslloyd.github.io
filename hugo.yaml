@@ -36,7 +36,7 @@ params:
   assets:
     disableHLJS: true
   profileMode:
-    enabled: true
+    enabled: false
     title: "" # optional default will be site title
     subtitle: ""
     imageUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFwbNIroip61A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696516780966?e=1729728000&v=beta&t=tHsN0wDS9iXt68fAOGyBz9ozHhL9hpgbke-GaXFBoFw" # optional
