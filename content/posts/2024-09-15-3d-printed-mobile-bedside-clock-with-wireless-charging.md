@@ -3,7 +3,7 @@ title: 3D Printed Mobile Bedside Clock with wireless charging
 description: ""
 date: 2024-09-15T08:32:05.160Z
 preview: /img/charger-photo-with-mobile.png
-draft: true
+draft: false
 tags: []
 categories: ['3D Printing']
 cover:
