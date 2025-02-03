@@ -6,6 +6,8 @@ preview: /img/benefits-of-fridges-over-ovens.png
 draft: false
 tags: []
 categories: []
+cover:
+    image: /img/benefits-of-fridges-over-ovens.png
 ---
 
 Fridges vs. Ovens: The SHOCKING Truth About Which Appliance Reigns Supreme! (You Won't BELIEVE #3!)
